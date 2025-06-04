@@ -1,0 +1,527 @@
+
+/* Figma Design System Styles */
+
+.bg-F1F1F1 {
+  background-color: #F1F1F1;
+}
+
+.bg-FDFDFD {
+  background-color: #FDFDFD;
+}
+
+.bg-282828 {
+  background-color: #282828;
+}
+
+.bg-E2E2E2-50 {
+  background-color: rgba(226, 226, 226, 0.5);
+}
+
+.bg-A8A8A8-10 {
+  background-color: rgba(168, 168, 168, 0.1);
+}
+
+.bg-727272-45 {
+  background-color: rgba(114, 114, 114, 0.45);
+}
+
+.bg-727272-10 {
+  background-color: rgba(114, 114, 114, 0.1);
+}
+
+.bg-00A656 {
+  background-color: #00A656;
+}
+
+.bg-A444F3 {
+  background-color: #A444F3;
+}
+
+.bg-gradient-cta {
+  background: rgba(233, 233, 233, 0.95);
+}
+
+.bg-gradient-premium {
+  background: linear-gradient(135deg, #F1F1F1 0%, #E2E2E2 100%);
+}
+
+.text-1B1B1B {
+  color: #1B1B1B;
+}
+
+.text-727272 {
+  color: #727272;
+}
+
+.text-A8A8A8 {
+  color: #A8A8A8;
+}
+
+.text-A444F3 {
+  color: #A444F3;
+}
+
+.text-FDFDFD {
+  color: #FDFDFD;
+}
+
+.text-1B1B1B-80 {
+  color: rgba(27, 27, 27, 0.8);
+}
+
+.text-727272-80 {
+  color: rgba(114, 114, 114, 0.8);
+}
+
+.border-E2E2E2 {
+  border-color: #E2E2E2;
+}
+
+.border-E2E2E2-50 {
+  border-color: rgba(226, 226, 226, 0.5);
+}
+
+.border-282828-10 {
+  border-color: rgba(40, 40, 40, 0.1);
+}
+
+.border-A8A8A8-10 {
+  border-color: rgba(168, 168, 168, 0.1);
+}
+
+.border-FDFDFD-90 {
+  border-color: rgba(253, 253, 253, 0.9);
+}
+
+.shadow-figma-card {
+  box-shadow: 0px 2.15px 0.5px -2px rgba(0, 0, 0, 0.25), 
+              0px 24px 24px -16px rgba(8, 8, 8, 0.04), 
+              0px 6px 13px 0px rgba(8, 8, 8, 0.03), 
+              0px 6px 4px -4px rgba(8, 8, 8, 0.05), 
+              0px 5px 1.5px -4px rgba(8, 8, 8, 0.09);
+}
+
+.shadow-figma-inset {
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.80) inset, 
+              0px 6px 13px 0px rgba(24, 24, 24, 0.03) inset, 
+              0px 6px 4px -4px rgba(24, 24, 24, 0.05) inset, 
+              0px 4.5px 1.5px -4px rgba(24, 24, 24, 0.07) inset;
+}
+
+.shadow-figma-product {
+  box-shadow: 0px 24px 32px -8px rgba(18, 18, 18, 0.05);
+}
+
+.backdrop-blur-figma {
+  backdrop-filter: blur(50px);
+}
+
+.backdrop-blur-figma-32 {
+  backdrop-filter: blur(32px);
+}
+
+.font-weight-450 {
+  font-weight: 450;
+}
+
+.tracking-figma-sm {
+  letter-spacing: -0.12px;
+}
+
+.tracking-figma-md {
+  letter-spacing: -0.14px;
+}
+
+.tracking-figma-lg {
+  letter-spacing: -0.4px;
+}
+
+.tracking-figma-xl {
+  letter-spacing: -0.66px;
+}
+
+.tracking-figma-2xl {
+  letter-spacing: -0.9px;
+}
+
+.leading-figma-tight {
+  line-height: 1.1;
+}
+
+.leading-figma-normal {
+  line-height: 1.375;
+}
+
+.rounded-figma-sm {
+  border-radius: 16px;
+}
+
+.rounded-figma-md {
+  border-radius: 24px;
+}
+
+.rounded-figma-lg {
+  border-radius: 32px;
+}
+
+.rounded-figma-xl {
+  border-radius: 40px;
+}
+
+.rounded-figma-pill {
+  border-radius: 90px;
+}
+
+.rounded-figma-full {
+  border-radius: 50%;
+}
+
+.gap-figma-xs {
+  gap: 2px;
+}
+
+.gap-figma-sm {
+  gap: 4px;
+}
+
+.gap-figma-md {
+  gap: 8px;
+}
+
+.gap-figma-lg {
+  gap: 12px;
+}
+
+.gap-figma-xl {
+  gap: 16px;
+}
+
+.opacity-figma-80 {
+  opacity: 0.8;
+}
+
+.min-h-figma-card {
+  min-height: 244px;
+}
+
+.min-h-figma-section {
+  min-height: 396px;
+}
+
+.min-h-figma-cta {
+  min-height: 668px;
+}
+
+.w-figma-xs {
+  width: 24px;
+}
+
+.w-figma-sm {
+  width: 48px;
+}
+
+.w-figma-md {
+  width: 96px;
+}
+
+.w-figma-lg {
+  width: 195px;
+}
+
+.w-figma-xl {
+  width: 304px;
+}
+
+.w-figma-2xl {
+  width: 422px;
+}
+
+.w-figma-3xl {
+  width: 520px;
+}
+
+.w-figma-4xl {
+  width: 620px;
+}
+
+.w-figma-5xl {
+  width: 765px;
+}
+
+.w-figma-6xl {
+  width: 768px;
+}
+
+.w-figma-7xl {
+  width: 976px;
+}
+
+.h-figma-xs {
+  height: 12px;
+}
+
+.h-figma-sm {
+  height: 24px;
+}
+
+.h-figma-md {
+  height: 48px;
+}
+
+.h-figma-lg {
+  height: 96px;
+}
+
+.aspect-figma-card {
+  aspect-ratio: 1.82;
+}
+
+.aspect-figma-wide {
+  aspect-ratio: 2.38;
+}
+
+.aspect-figma-ultra {
+  aspect-ratio: 5.46;
+}
+
+.z-figma-0 {
+  z-index: 0;
+}
+
+.z-figma-10 {
+  z-index: 10;
+}
+
+.transform-figma-center {
+  transform: translate(-50%, -50%);
+}
+
+.filter-figma-blur {
+  filter: blur(2px);
+}
+
+.transition-figma {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-bg-282828:hover {
+  background-color: rgba(40, 40, 40, 0.9);
+}
+
+.hover-bg-F1F1F1:hover {
+  background-color: rgba(241, 241, 241, 0.9);
+}
+
+.hover-text-1B1B1B:hover {
+  color: #1B1B1B;
+}
+
+.fill-E2E2E2 {
+  fill: #E2E2E2;
+}
+
+.fill-00A656 {
+  fill: #00A656;
+}
+
+.stroke-E2E2E2 {
+  stroke: #E2E2E2;
+}
+
+.stroke-A8A8A8-10 {
+  stroke: rgba(168, 168, 168, 0.1);
+}
+
+/* Custom positioning utilities */
+.pos-figma-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pos-figma-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+/* Text size utilities matching Figma */
+.text-figma-xs {
+  font-size: 12px;
+}
+
+.text-figma-sm {
+  font-size: 13px;
+}
+
+.text-figma-base {
+  font-size: 14px;
+}
+
+.text-figma-md {
+  font-size: 16px;
+}
+
+.text-figma-lg {
+  font-size: 18px;
+}
+
+.text-figma-xl {
+  font-size: 24px;
+}
+
+.text-figma-2xl {
+  font-size: 32px;
+}
+
+.text-figma-3xl {
+  font-size: 40px;
+}
+
+.text-figma-4xl {
+  font-size: 44px;
+}
+
+.text-figma-5xl {
+  font-size: 48px;
+}
+
+.text-figma-6xl {
+  font-size: 60px;
+}
+
+/* Spacing utilities */
+.p-figma-xs {
+  padding: 4px;
+}
+
+.p-figma-sm {
+  padding: 8px;
+}
+
+.p-figma-md {
+  padding: 16px;
+}
+
+.p-figma-lg {
+  padding: 24px;
+}
+
+.p-figma-xl {
+  padding: 32px;
+}
+
+.p-figma-2xl {
+  padding: 48px;
+}
+
+.p-figma-3xl {
+  padding: 60px;
+}
+
+.m-figma-xs {
+  margin: 4px;
+}
+
+.m-figma-sm {
+  margin: 8px;
+}
+
+.m-figma-md {
+  margin: 16px;
+}
+
+.m-figma-lg {
+  margin: 24px;
+}
+
+.m-figma-xl {
+  margin: 32px;
+}
+
+.m-figma-2xl {
+  margin: 48px;
+}
+
+.m-figma-3xl {
+  margin: 60px;
+}
+
+.m-figma-4xl {
+  margin: 80px;
+}
+
+.m-figma-5xl {
+  margin: 160px;
+}
+
+/* Layout utilities */
+.flex-figma-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-figma-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-figma-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-figma-wrap {
+  flex-wrap: wrap;
+}
+
+.grid-figma-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+/* Border utilities */
+.border-figma-subtle {
+  border: 1.5px solid rgba(168, 168, 168, 0.1);
+}
+
+.border-figma-light {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.border-figma-top {
+  border-top: 0.5px solid rgba(40, 40, 40, 0.1);
+}
+
+/* Animation utilities */
+@keyframes figma-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-figma-fade-in {
+  animation: figma-fade-in 0.5s ease-out;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+  
+  .mobile-full {
+    width: 100%;
+  }
+  
+  .mobile-center {
+    text-align: center;
+  }
+}

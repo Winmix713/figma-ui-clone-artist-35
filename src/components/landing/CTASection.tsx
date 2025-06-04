@@ -2,32 +2,32 @@ import React from 'react';
 
 export const CTASection: React.FC = () => {
   return (
-    <section className="items-stretch border-[color:var(--Stroke-Subtle,rgba(168,168,168,0.10))] self-center z-0 flex w-[976px] max-w-full flex-col overflow-hidden justify-center bg-[#F1F1F1] mt-40 p-2 rounded-[40px] border-[1.5px] border-solid max-md:mt-10">
+    <section className="items-stretch border-figma-subtle self-center z-figma-0 flex w-figma-7xl max-w-full flex-col overflow-hidden justify-center bg-F1F1F1 m-figma-5xl p-figma-sm rounded-figma-xl border-[1.5px] border-solid max-md:mt-10">
       <div className="w-full">
-        <div className="flex flex-col relative z-10 min-h-[668px] items-stretch justify-center -my-2 p-2 max-md:max-w-full max-md:-mr-2">
+        <div className="flex flex-col relative z-figma-10 min-h-figma-cta items-stretch justify-center -my-2 p-figma-sm max-md:max-w-full max-md:-mr-2">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/2548869794224509ad73d4b053631dfd/0b713c77b1e1d73cd173f92935a3364d858548e3?placeholderIfAbsent=true"
             alt="Background"
             className="absolute h-full w-full object-cover inset-0"
           />
-          <div className="relative backdrop-blur-[50px] bg-[rgba(233,233,233,0.95)] overflow-hidden pt-20 rounded-[32px] max-md:max-w-full">
+          <div className="relative backdrop-blur-figma bg-gradient-cta overflow-hidden pt-figma-4xl rounded-figma-lg max-md:max-w-full">
             <div className="flex w-full flex-col items-stretch max-md:max-w-full">
               <div className="flex w-full flex-col items-center text-center max-md:max-w-full">
-                <h2 className="text-[#1B1B1B] text-[44px] font-semibold leading-none tracking-[-0.66px] max-md:max-w-full">
+                <h2 className="text-1B1B1B text-figma-4xl font-semibold leading-none tracking-figma-xl max-md:max-w-full">
                   Start crafting brilliant briefs today
                 </h2>
-                <p className="text-[#727272] text-lg font-normal leading-none mt-5 max-md:max-w-full">
+                <p className="text-727272 text-figma-lg font-normal leading-none mt-figma-md max-md:max-w-full">
                   Join thousands of designers and elevate your project
                   workflow for free
                 </p>
               </div>
-              <button className="self-center bg-[#282828] gap-2 overflow-hidden text-sm text-[#FDFDFD] font-medium tracking-[-0.14px] leading-none mt-8 px-7 py-3.5 rounded-[90px] max-md:px-5 hover:bg-gray-800 transition-colors">
+              <button className="self-center bg-282828 gap-figma-sm overflow-hidden text-figma-base text-FDFDFD font-medium tracking-figma-md leading-none mt-figma-xl px-7 py-3.5 rounded-figma-pill max-md:px-5 hover-bg-282828 transition-figma">
                 Get started for free
               </button>
             </div>
-            <div className="backdrop-blur-[50px] bg-[rgba(253,253,253,0.5)] flex w-[620px] max-w-full flex-col ml-[106px] mt-28 px-20 rounded-2xl max-md:mt-10 max-md:pl-5">
-              <div className="backdrop-blur-[50px] bg-[rgba(253,253,253,0.5)] flex flex-col -mr-32 rounded-2xl max-md:max-w-full max-md:pr-5">
-                <div className="shadow-[0px_2.15px_0.5px_-2px_rgba(0,0,0,0.25),0px_24px_24px_-16px_rgba(8,8,8,0.04),0px_6px_13px_0px_rgba(8,8,8,0.03),0px_6px_4px_-4px_rgba(8,8,8,0.05),0px_5px_1.5px_-4px_rgba(8,8,8,0.09)] backdrop-blur-[32px] bg-[#F1F1F1] z-10 w-full overflow-hidden -mt-10 pt-10 px-12 rounded-[16px_16px_0px_0px] max-md:max-w-full max-md:px-5">
+            <div className="backdrop-blur-figma bg-[rgba(253,253,253,0.5)] flex w-figma-4xl max-w-full flex-col ml-[106px] mt-28 px-figma-4xl rounded-2xl max-md:mt-10 max-md:pl-5">
+              <div className="backdrop-blur-figma bg-[rgba(253,253,253,0.5)] flex flex-col -mr-32 rounded-2xl max-md:max-w-full max-md:pr-5">
+                <div className="shadow-[0px_2.15px_0.5px_-2px_rgba(0,0,0,0.25),0px_24px_24px_-16px_rgba(8,8,8,0.04),0px_6px_13px_0px_rgba(8,8,8,0.03),0px_6px_4px_-4px_rgba(8,8,8,0.05),0px_5px_1.5px_-4px_rgba(8,8,8,0.09)] backdrop-blur-figma bg-[#F1F1F1] z-10 w-full overflow-hidden -mt-10 pt-10 px-12 rounded-[16px_16px_0px_0px] max-md:max-w-full max-md:px-5">
                   <div className="flex w-full gap-[40px_94px] justify-between flex-wrap max-md:max-w-full">
                     <div className="min-w-60 font-medium w-[264px]">
                       <div className="flex items-center gap-2 text-lg text-[#A8A8A8] leading-none">
