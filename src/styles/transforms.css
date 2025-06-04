@@ -1,0 +1,105 @@
+
+/* Figma Design System - Transforms and Positioning */
+
+/* Transform Utilities */
+.transform-figma-center {
+  transform: translate(-50%, -50%);
+}
+
+.transform-figma-x-center {
+  transform: translateX(-50%);
+}
+
+.transform-figma-y-center {
+  transform: translateY(-50%);
+}
+
+.transform-figma-scale-105 {
+  transform: scale(1.05);
+}
+
+.transform-figma-scale-110 {
+  transform: scale(1.1);
+}
+
+.transform-figma-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.transform-figma-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.hover-scale-105:hover {
+  transform: scale(1.05);
+}
+
+/* Positioning Utilities */
+.pos-figma-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pos-figma-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.pos-figma-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pos-figma-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pos-figma-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pos-figma-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pos-figma-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pos-figma-center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Transition Utilities */
+.transition-figma {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-figma-fast {
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-figma-slow {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-figma-opacity {
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-figma-transform {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

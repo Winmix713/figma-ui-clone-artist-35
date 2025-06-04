@@ -1,6 +1,16 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './styles/colors.css';
+@import './styles/spacing.css';
+@import './styles/typography.css';
+@import './styles/layout.css';
+@import './styles/effects.css';
+@import './styles/transforms.css';
+@import './styles/animations.css';
+@import './styles/responsive.css';
 
 @layer base {
   :root {

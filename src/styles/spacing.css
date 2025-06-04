@@ -1,0 +1,294 @@
+
+/* Figma Design System - Spacing Utilities */
+
+/* Gap Utilities */
+.gap-figma-xs {
+  gap: 2px;
+}
+
+.gap-figma-sm {
+  gap: 4px;
+}
+
+.gap-figma-md {
+  gap: 8px;
+}
+
+.gap-figma-lg {
+  gap: 12px;
+}
+
+.gap-figma-xl {
+  gap: 16px;
+}
+
+.gap-figma-2xl {
+  gap: 20px;
+}
+
+.gap-figma-3xl {
+  gap: 24px;
+}
+
+.gap-figma-4xl {
+  gap: 32px;
+}
+
+/* Padding Utilities */
+.p-figma-xs {
+  padding: 4px;
+}
+
+.p-figma-sm {
+  padding: 8px;
+}
+
+.p-figma-md {
+  padding: 16px;
+}
+
+.p-figma-lg {
+  padding: 24px;
+}
+
+.p-figma-xl {
+  padding: 32px;
+}
+
+.p-figma-2xl {
+  padding: 48px;
+}
+
+.p-figma-3xl {
+  padding: 60px;
+}
+
+.p-figma-4xl {
+  padding: 80px;
+}
+
+.p-figma-5xl {
+  padding: 120px;
+}
+
+/* Horizontal Padding */
+.px-figma-xs {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.px-figma-sm {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.px-figma-md {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.px-figma-lg {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.px-figma-xl {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Vertical Padding */
+.py-figma-xs {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py-figma-sm {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-figma-md {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-figma-lg {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.py-figma-xl {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* Margin Utilities */
+.m-figma-xs {
+  margin: 4px;
+}
+
+.m-figma-sm {
+  margin: 8px;
+}
+
+.m-figma-md {
+  margin: 16px;
+}
+
+.m-figma-lg {
+  margin: 24px;
+}
+
+.m-figma-xl {
+  margin: 32px;
+}
+
+.m-figma-2xl {
+  margin: 48px;
+}
+
+.m-figma-3xl {
+  margin: 60px;
+}
+
+.m-figma-4xl {
+  margin: 80px;
+}
+
+.m-figma-5xl {
+  margin: 160px;
+}
+
+/* Horizontal Margin */
+.mx-figma-xs {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.mx-figma-sm {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mx-figma-md {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mx-figma-lg {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.mx-figma-xl {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+/* Vertical Margin */
+.my-figma-xs {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.my-figma-sm {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.my-figma-md {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.my-figma-lg {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.my-figma-xl {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* Individual Margin Utilities */
+.mt-figma-xs {
+  margin-top: 4px;
+}
+
+.mt-figma-sm {
+  margin-top: 8px;
+}
+
+.mt-figma-md {
+  margin-top: 16px;
+}
+
+.mt-figma-lg {
+  margin-top: 24px;
+}
+
+.mt-figma-xl {
+  margin-top: 32px;
+}
+
+.mb-figma-xs {
+  margin-bottom: 4px;
+}
+
+.mb-figma-sm {
+  margin-bottom: 8px;
+}
+
+.mb-figma-md {
+  margin-bottom: 16px;
+}
+
+.mb-figma-lg {
+  margin-bottom: 24px;
+}
+
+.mb-figma-xl {
+  margin-bottom: 32px;
+}
+
+.ml-figma-xs {
+  margin-left: 4px;
+}
+
+.ml-figma-sm {
+  margin-left: 8px;
+}
+
+.ml-figma-md {
+  margin-left: 16px;
+}
+
+.ml-figma-lg {
+  margin-left: 24px;
+}
+
+.ml-figma-xl {
+  margin-left: 32px;
+}
+
+.mr-figma-xs {
+  margin-right: 4px;
+}
+
+.mr-figma-sm {
+  margin-right: 8px;
+}
+
+.mr-figma-md {
+  margin-right: 16px;
+}
+
+.mr-figma-lg {
+  margin-right: 24px;
+}
+
+.mr-figma-xl {
+  margin-right: 32px;
+}
